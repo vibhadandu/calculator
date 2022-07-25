@@ -1,0 +1,18 @@
+button
+{
+ padding: 15px 32px;
+ font-size: 16px;
+}
+
+th
+{
+    border: 2px solid black; 
+    padding: 0px;
+}
+
+td
+{
+    border: 2px, solid,black ;
+    padding: 0px;
+}
+

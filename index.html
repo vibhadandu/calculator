@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <table border="2" bordercolor="black" margin="10px" >
+    <th>
+        <table border="2px" bordercolor="lavender" margin="10px" cellspacing="10px" cellpadding="10px">
+        <tr>
+       
+           <th colspan="3" height="50px" style="max-width: 100px; overflow: auto;" align="right" id="result">0</th>
+           <th><button  type="button" id="clear" onclick="clears()">ac</button></th>
+      
+        </tr>
+       
+        
+        <tr >
+            <td> <button type="button" id="n1" value="1" onclick="print(value)" > 1 </button> </td>
+            <td> <button type="button" id="n2" value="2" onclick="print(value)"> 2 </button> </td>
+            <td> <button type="button" id="n3" value="3" onclick="print(value)"> 3 </button> </td>
+            <td> <button style="width: 100%;" type="button" id="div" value="/" onclick="printop(value)"> / </button> </td>
+        </tr>
+            <td> <button type="button" id="n4" value="4" onclick="print(value)"> 4 </button> </td>
+            <td> <button type="button" id="n5"value="5" onclick="print(value)"> 5 </button> </td>
+            <td> <button type="button" id="n6"value="6" onclick="print(value)"> 6 </button> </td>
+            <td> <button style="width: 100%;" type="button" id="sub"value="-" onclick="printop(value)"> - </button> </td>
+        
+        <tr>
+        
+        <tr>
+            <td> <button type="button" id="n7" value="7" onclick="print(value)"> 7 </button> </td>
+            <td> <button type="button" id="n8" value="8" onclick="print(value)"> 8 </button> </td>
+            <td> <button type="button" id="n9" value="9" onclick="print(value)"> 9 </button> </td>
+            <td> <button style="width: 100%;" type="button" id="add" value="+" onclick="printop(value)"> + </button> </td>
+        </tr>
+
+        <tr>
+            <td> <button type="button" id="dot" value="." onclick="printop(value)"> . </button> </td>
+            <td> <button type="button" id="n0" value="0" onclick="print(value)"> 0 </button> </td>
+            <td> <button type="button" id="assign" value="=" onclick="calculate()"> = </button> </td>
+            <td> <button style="width: 100%;" type="button" id="mul" value="*" onclick="printop(value)"> * </button> </td>
+        </tr>
+        
+
+       
+    
+    </th>
+    </table>
+    
+        
+    </table>
+    <script src="script.js" ></script>
+
+</body>
+</html>
